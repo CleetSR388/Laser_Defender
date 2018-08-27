@@ -210,11 +210,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4949473967548162, guid: cb26e02cee2a0764ea3ab78ef42e76c1, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 4949473967548162, guid: cb26e02cee2a0764ea3ab78ef42e76c1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 3.67
       objectReference: {fileID: 0}
     - target: {fileID: 4949473967548162, guid: cb26e02cee2a0764ea3ab78ef42e76c1, type: 2}
       propertyPath: m_LocalPosition.z
@@ -525,7 +525,7 @@ GameObject:
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -543,6 +543,10 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: b3141e3710687924fb2772419dc6dde8, type: 2}
   - {fileID: 11400000, guid: f0c86e8461e3f594da877f717116402e, type: 2}
+  - {fileID: 11400000, guid: 446e3ee5b1962384086dbd5fdfd1d150, type: 2}
+  - {fileID: 11400000, guid: 1e453135e264e664ba5135c1b5304248, type: 2}
+  startingWave: 0
+  looping: 1
 --- !u!4 &1861334389
 Transform:
   m_ObjectHideFlags: 0
@@ -569,7 +573,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4257100231164872, guid: 0853d1c9c10dc01469ec51f27b6bfdab, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.28
       objectReference: {fileID: 0}
     - target: {fileID: 4257100231164872, guid: 0853d1c9c10dc01469ec51f27b6bfdab, type: 2}
       propertyPath: m_LocalPosition.z
